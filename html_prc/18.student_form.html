@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" align="center" width="40%" cellpadding="10" cellspacing="2">
+      <thead>
+        <form action="post" >
+          <caption><h2>Student Registration Form</h2></caption>
+            <tr>
+                <td>
+                    <label for="Student name">Student name:</label>
+                    <input type="text" name="Student name" id="Student name" required placeholder="Enter Name"> 
+                </td>
+            </tr>
+            <tr><br>
+                <td>
+                    <label for="Father's Name">Father's Name:</label>
+                    <input type="text" name="Father's name" id="father's name" required placeholder="Enter Father's name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Mother's Name">Mother's name</label>
+                    <input type="text" name="Mother's Name" id="Mother's Name" required placeholder="Enter Mother's Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Gender">Gender:</label>
+                    <input type="radio" name="Gender" id="Male"><label for="Male">Male</label>
+                    <input type="radio" name="Gender" id="Female"><label for="Female">Female</label>
+                    <input type="radio" name="Gender" id="Other"><label for="Other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Date Of Birth">Date Of Birth:</label>
+                    <input type="date" name="date of birth" id="date of birth"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Email:</label>
+                    <input type="Email" name="Email" id="Email" required placeholder="Enter Email">
+                </td>
+            </tr>
+            <tr>
+               <td> 
+                 <label for="">Education:</label>            
+                    <select name="" id="">
+                        <option value="">10th</option>
+                        <option value="">12th</option>
+                        <option value="">Graduation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Hobbies:</label>
+                    <input type="checkbox" name="hobbie" value="Music" id="Music"><label for="Music">Music</label>
+                    <input type="checkbox" name="hobbie" value="Reading" id="Reading"><label for="Reading">Reading</label>
+                    <input type="checkbox" name="hobbie" value="Drawing" id="Drawing"><label for="Drawing">Drawing</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Mobile">Mobile:</label>
+                    <input type="tel" name="Mobile" id="Mobile" value="+91" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="passport Photo">passport Photo:</label>
+                    <input type="File" name="passport photo" id="passport Photo" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Student signature">Student signature:</label>
+                    <input type="File" name="Student signature" id="Student signature" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Address">Address:</label><br>
+                    <textarea name="Address" id="" cols="60" rows="4"></textarea>
+                </td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td align="center" >
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+        </tfoot>
+     </form>   
+   </table>
+</body>
+</html>
