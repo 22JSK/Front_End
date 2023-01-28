@@ -1,0 +1,116 @@
+* {
+    margin: 1.55px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    border: 4px solid rgb(187, 187, 255);
+    border-radius: 70px;
+    background-color: rgb(187, 187, 255);
+}
+
+.kk {
+    text-align: center;
+    margin: 50px;
+    line-height: 40px;
+}
+
+.kk h2 {
+    color: brown;
+}
+
+.kk p {
+    color: rgb(92, 62, 62);
+}
+
+.col ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+.wrap ul {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.wrap ul li {
+    width: 260px;
+    text-align: center;
+}
+
+.list ul i {
+    font-size: 50px;
+    padding: 20px 25px;
+    color: white;
+}
+
+.list ul i:hover {
+    color: black;
+}
+
+.box1 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(121, 155, 227);
+}
+
+.box2 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(224, 161, 14);
+}
+
+.box3 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(237, 108, 23);
+}
+
+.box4 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(232, 145, 217);
+}
+
+.box5 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(84, 14, 150);
+}
+
+.box6 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(86, 138, 138);
+}
+
+.box7 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(47, 112, 145);
+}
+
+.box8 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(132, 83, 248);
+}
+
+.box9 i {
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: rgb(82, 95, 109);
+}
+
+.list ul li p:hover {
+    color: rgb(31, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+}
