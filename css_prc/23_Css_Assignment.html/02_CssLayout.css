@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+   margin: auto;  
+}
+.row{
+    display: flex;
+}
+.menu{
+    margin-right: auto;
+}
+.col{
+    width:50%;
+    border: 2px solid rgb(25, 17, 17);
+    margin: 19px;
+    box-shadow: 10px 5px 6px 7px ;
+}
+.col img{
+    width: 100%;
+}
+.col button{
+    margin: 5px;
+}
+
+
+

@@ -1,0 +1,104 @@
+(1) What are the benefits of using CSS?
+Ans:- •	It helps to make consistent and spontaneous changes.
+         •	It improves the loading speed of the page.
+•	CSS has the ability to re-position.
+•	It has better device compatibility.
+
+
+
+(2)	What are the disadvantages of CSS?
+Ans:- There could be cross-browser issues while using CSS. There are multiple levels of CSS such as CSS, CSS 2, CSS 3. This can create confusion for non-developers and beginners.
+
+
+
+(3)	What is the difference between CSS2 and CSS3?
+
+
+(4) Name a few CSS style components.
+Ans:-At its most basic level, CSS consists of two components:
+1--->Properties: These are human-readable identifiers that indicate. which stylistic features you want to modify. For example, font-size,
+    width, background-color.
+2------>Values: Each property is assigned a value. This value indicates
+ how to style the property.
+
+
+(5) What do you understand by CSS opacity?
+Ans:- The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+
+(6) How can the background color of an element be changed?
+Ans:- Change the background color of the first element with both the “child” and “color” class inside of an element with class=”example”: Change the background color of all elements with class=”child” inside of a <div> element:
+
+
+(7) How can image repetition of the backup be controlled?
+Ans:-The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. It also decides whether the background image will be repeated or not.
+
+
+(8) What is the use of the background-position property?
+Ans:- The background-position property in CSS is mainly used to sets the initial position for the background image. it is used to set an image at a certain position. The position that is relative to the positioning layer, can be set by using the background-origin property.
+
+
+(9) • Which property controls the image scroll in the background?
+Ans:-The background-attachment property in CSS is used to specify the kind of attachment of the background image with respect to its container. It can be set to scroll or make it remain fixed. It can be applied to all HTML elements.
+
+
+(10) • Why should background and color be used as separate properties?
+ANS:-There are two reasons behind this: It enhances the legibility of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+
+(11) How to center block elements using CSS1?
+Ans:- We need to specify the margin from left and right such that it looks centered. We do not need to do this manually, we have one property value “auto” which will automatically set the margin such that our block element is placed in the center.
+
+
+(12) How to maintain the CSS specifications?
+
+
+
+
+(13) What are the ways to integrate CSS as a web page?
+Ans:- There are three ways to integrate CSS into a Web page.
+1. Inline: HTML elements may have CSS applied to them via the STYLE attribute.
+2. Embedded/internal: By placing the code in a STYLE element within the HEAD element.
+3. Linked/ Imported/external: Place the CSS in an external file and link it via a link element.
+
+
+
+(14) What is embedded style sheets?
+Ans:- Embedded style sheets refer to when you embed style sheet information into an HTML document using the <style> element. You do this by embedding the style sheet information within <style></style> tags in the head of your document.
+
+
+15.What are the external style sheets?
+Ans:- An external style sheet is a separate file linked to an HTML web page. It comes with a .css filename extension. All the styles that need to be used on a website can be declared in the external style sheet. External style sheets are an important tool from the webmaster’s perspective.
+
+
+16.What are the advantages and disadvantages of using external style sheets?
+Ans:- The advantages of External Style Sheets are:
+- Using them, the styles of multiple documents can be controlled from one file.
+- Classes can be created for use on multiple HTML element types in many documents.
+- In complex situations, selector and grouping methods can be used to apply styles.
+
+The disadvantages of External Style Sheets are:
+
+- In order to import style information for each document, an extra download is needed.
+- Until the external style sheet is loaded, it may not be possible to render the document.
+- For small number of style definitions, it is not viable.
+
+
+
+17. • What is the meaning of the CSS selector?
+Ans:- A CSS selector is the part of a CSS style call that identifies what part of the web page should be styled. The selector contains one or more properties that define how the selected HTML The CSS Selectors There are several different types of selectors: type selectors – matching a specific element.
+
+
+
+18.What are the media types allowed by CSS?
+Ans:- One of the most important features of style sheets is that they specify how a document is to be presented on different media: on the screen, on paper, with a speech synthesizer, with a braille device, etc.
+Certain CSS properties are only designed for certain media (e.g., the 'page-break-before' property only applies to paged media). On occasion, however, style sheets for different media types may share a property, but require different values for that property. For example, the 'font-size' property is useful both for screen and print media. The two media types are different enough to require different values for the common property; a document will typically need a larger font on a computer screen than on paper. Therefore, it is necessary to express that a style sheet, or a section of a style sheet, applies to certain media types.
+
+
+19. What is the rule set?
+Ans:- A rule, or “rule set,” is an instruction that tells browsers how to display specific elements on an HTML page. A rule set consists of a selector followed by a declaration block. The declaration tells a browser how to draw an element on a selected page.
+
+
+
+
+20. Create Layouts
