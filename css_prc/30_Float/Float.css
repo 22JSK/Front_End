@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 2px solid;
+    
+}
+.box1{
+    float: left;
+    width: 200px;
+    height: 190px;
+    background-color: aqua;
+}
+.box2{
+    float: right;
+    width: 200px;
+    height: 190px;
+    background-color: violet;
+}
+.left{
+    clear: right;
+}
