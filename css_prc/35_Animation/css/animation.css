@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(../img/background.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.cart-icon{
+    width: 30px;
+    cursor: pointer;
+}
+nav ul{
+    flex:1;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%);
+    background: aqua;
+    transition: 0.4s;
+}
+nav ul li a:hover::after{
+    width: 50%;
+}
+.text-box{
+    position: absolute;
+    bottom: 8%;
+    color: white;
+}
+.text-box p{
+    font-size: 60px;
+    font-weight: 900;
+}
+.text-box h1{
+    font-size: 200px;
+    line-height: 170px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    background: url(../img/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    50%{
+        background-position: 2000px 0;
+    }
+}
+.text-box h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+.text-box .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+.text-box a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.social-icon{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icon img{
+    display: block;
+    width: 25px;
+    margin: 25px 5px;
+}
+nav ul li a:hover{
+    color: rgb(136, 136, 181);
+}
+.social-icon img:hover{
+    background-color:black;
+    border-radius: 30px;
+}
+

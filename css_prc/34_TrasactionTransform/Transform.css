@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    margin: 20px;
+    /* background-color: black; */
+
+}
+*{
+    background-color: black;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    border: 2px solid;
+    /* transition: all 0.4s; */
+    animation: css  0.6s alternate infinite;
+    margin: 20px;
+    border-radius: 100%;
+    position: relative;
+
+}
+@keyframes css {
+    to{
+        top: 10px;
+        transform: rotateZ('45deg');
+    }
+    from{
+        top: 150px;
+    }
+}
+.box:hover{
+/* transform: matrix(1, 2, 3, 4, 5, 6); */
+/* transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
+/* transform: perspective(17px); */
+/* transform: rotate(0.5turn); */
+/* transform: rotate3d(1, 2, 3, 10deg); */
+/* transform: rotateX(10deg); */
+/* transform: rotateY(10deg); */
+/* transform: rotateZ(10deg); */
+/* transform: translate(12px, 50%); */
+/* transform: translate3d(12px, 50%, 3em); */
+/* transform: translateX(2em); */
+/* transform: translateY(3in); */
+/* transform: translateZ(2px); */
+/* transform: scale(2, 0.5); */
+/* transform: scale3d(2.5, 1.2, 0.3); */
+/* transform: scaleX(2); */
+/* transform: scaleY(0.5); */
+/* transform: scaleZ(0.3); */
+/* transform: skew(30deg, 20deg); */
+/* transform: skewX(30deg); */
+/* transform: skewY(1.07rad); */
+}
